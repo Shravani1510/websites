@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=Lin, initial-scale=1.0">
+    <title>Social Media Website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="./index.html" class="logo"><img src="./images/logo.png" alt=""></a>
+            
+            <div class="serach-box">
+                <img src="./images/search.png" >
+                <input type="text" placeholder="Search">
+            </div>
+        
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="./images/home.png"><span>Home</span></a></li>
+                <li><a href="#"><img src="./images/network.png"><span>My Network</span></a></li>
+                <li><a href="#"><img src="./images/jobs.png"><span>Jobs</span></a></li>
+                <li><a href="#"><img src="./images/message.png"><span>Messaging</span></a></li>
+                <li><a href="#"><img src="./images/notification.png"><span>Notification</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="./images/12photo.jfif" class="nav-profile-img" onclick="toggleMenu()" >
+            </div>
+        </div>
+
+        <!-- -------------------------profile-drop-down-menu---------------- -->
+
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="./images/12photo.jfif">
+                    <div>
+                        <h3>Shravani Pariseka</h3>
+                        <a href="./profile.html">See your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="./images/feedback.png">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="./images/setting.png">
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="./images/help.png">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="./images/display.png">
+                    <p>Display & Accessiblity</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="./images/logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- --------- navbar close ------------ -->
+
+    <div class="container">
+        <div class="profile-main">
+           <div class="profile-container">
+                <img src="./images/cover-pic.jfif" width="100%">
+                <div class="profile-container-inner">
+                    <img src="./images/12photo.jfif" class="profile-pic">
+                    <h1>Shravani Pariseka</h1>
+                    <b>Web Developer</b>
+                    <p>Germany &middot; <a href="#">
+                        Contact info
+                    </a></p>
+                    <div class="mutual-connection">
+                        <img src="./images/user-2.png">
+                        <span>1 mutual connection: Orlando Diggs</span>
+                    </div>
+                    <div class="profile-btn">
+                        <a href="#" class="primary-btn"><img src="./images/connect.png">Connect</a>
+                        <a href="#"><img src="./images/chat.png">Message</a>
+                    </div>
+                </div>
+           </div> 
+
+           <div class="profile-description">
+                <h2>About</h2>
+                <p>
+                    Hi I'm Shravani Pariseka Front-End Developer.
+                     With experience creating responsive websites with HTML5, CSS3, 
+                     JavaScript, TypeScript, jQuery, and React. Maintained Agile project
+                      milestones despite challenges using Git version control for version control. 
+                    My leadership skills make me an ideal candidate for independent work.
+                </p>
+                <a href="#" class="see-more-link">See more...</a>
+           </div>
+
+           <div class="profile-description">
+                <h2>Experience</h2>
+                <div class="profile-desc-row">
+                    <img src="./images/microsoft.png">
+                    <div>
+                        <h3>Lead Front-End Developer</h3>
+                        <b>Microsoft &middot; Full-time</b>
+                        <b>Feb 2023 -present &middot; 1.5 years</b>
+                        <p>Computer programming is the process of performing a particular
+                            computation, usually by designing and building an executable Computer
+                            program.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="./images/slack.png">
+                    <div>
+                        <h3>Full Stack Developer</h3>
+                        <b>Slack &middot; Full-time</b>
+                        <b>June 2019 - jan 2022 &middot; 2.5 years</b>
+                        <p>Computer programming is the process of performing a particular
+                            computation, usually by designing and building an executable Computer
+                            program.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="./images/google.png">
+                    <div>
+                        <h3>Web Developer</h3>
+                        <b>Google Inc &middot; Full-time</b>
+                        <b>sep 2017 - may 2019 &middot; 2.8 years</b>
+                        <p>Computer programming is the process of performing a particular
+                            computation, usually by designing and building an executable Computer
+                            program.
+                        </p>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="experience-link">Show all 7 experiences <img src="./images/right-arrow.png" alt=""></a>
+           </div>
+      
+           <div class="profile-description">
+                <h2>Education</h2>
+                <div class="profile-desc-row">
+                    <img src="./images/stanford.png">
+                    <div>
+                        <h3>Bauhaus University</h3>
+                        <b>Mastes's in Digital Engineering</b>
+                        <b>2018-2022</b>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="./images/north.png">
+                    <div>
+                        <h3>SBIT</h3>
+                        <b>Electrical and Electronics Engineering</b>
+                        <b>2013-2017</b>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="./images/mit.png">
+                    <div>
+                        <h3>KJC</h3>
+                        <b>Mathematics, Physics, and Chemistry</b>
+                        <b>2011-2013</b>
+                    </div>
+                </div>
+           </div>
+           <div class="profile-description">
+                <h2>Skills</h2>
+                <a href="#" class="skillls-btn">Leadership</a>
+                <a href="#" class="skillls-btn">Web Design</a>
+                <a href="#" class="skillls-btn">Development</a>
+                <a href="#" class="skillls-btn">Communication</a>
+                <a href="#" class="skillls-btn">Planning</a>
+                <a href="#" class="skillls-btn">UI/UX</a>
+                <a href="#" class="skillls-btn">Coding</a>
+                <a href="#" class="skillls-btn">JavaScript</a>
+                <a href="#" class="skillls-btn">Enterprenuorship</a>
+           </div>
+
+           <div class="profile-description">
+            <h2>Languages</h2>
+            <a href="#" class="language-btn">English</a>
+            <a href="#" class="language-btn">German</a>
+       </div>
+        </div>
+        <!-- ----------------------profile-sidebar--------------- -->
+        <div class="profile-sidebar">
+
+            <div class="sidebar-ad">
+                <small>Ad &middot; &middot; &middot;</small>
+                <p>Master the 5 principles od web design </p>
+                <div>
+                    <img src="./images/12photo.jfif">
+                    <img src="./images/mi-logo.png" >
+                </div>
+                <b>Brand and Demand in Xiaomi</b>
+                <a href="#" class="ad-link">Learn More</a>
+            </div>
+
+            <div class="sidebar-people">
+                <h3>People you may know</h3>
+                <div class="sidebar-people-row">
+                    <img src="./images/user-3.png">
+                    <div>
+                        <h2>Samuel Tony</h2>
+                        <p>Head of Marketing at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-people-row">
+                    <img src="./images/user-4.png">
+                    <div>
+                        <h2>Benjamin Leo</h2>
+                        <p>Head of Marketing at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-people-row">
+                    <img src="./images/user-5.png">
+                    <div>
+                        <h2>Steave Greg</h2>
+                        <p>Head of Marketing at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-people-row">
+                    <img src="./images/user-2.png">
+                    <div>
+                        <h2>Martin Lewis</h2>
+                        <p>Head of Marketing at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+
+                <div class="sidebar-people-row">
+                    <img src="./images/user-5.png">
+                    <div>
+                        <h2>Clarence George</h2>
+                        <p>Head of Marketing at Alibaba</p>
+                        <a href="#">Connect</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="profile-footer">
+        <div class="sidebar-useful-links">
+            <a href="#">About</a>
+            <a href="#">Accessiblity</a>
+            <a href="#">Help Center</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Advertising</a>
+            <a href="#">Get the App</a>
+            <a href="#">More</a>
+
+            <div class="copyright-msg">
+                <img src="./images/logo.png">
+                <p>Linkedup &#169; 2023. All right reserved</p>
+            </div>
+        </div>
+    </div>
+   
+    <script src="./script.js"></script>
+</body>
+</html>
