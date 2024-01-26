@@ -8,6 +8,4 @@ To View a YouTube clone click on this URL: https://shravani1510.github.io/Youtub
 
 To View the LinkedIn clone click on this URL: https://shravani1510.github.io/LinkedIn-clone/
 
-To View the Netflix clone click on this URL: https://shravani1510.github.io/Netflix-clone/
-
 To View the airbnb clone click on this URL: https://shravani1510.github.io/airbnb-clone/
