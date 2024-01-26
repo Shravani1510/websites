@@ -7,3 +7,5 @@ To view the Facebook clone click on this URL: https://shravani1510.github.io/fac
 To View a YouTube clone click on this URL: https://shravani1510.github.io/Youtube-clone/
 
 To View the LinkedIn clone click on this URL: https://shravani1510.github.io/LinkedIn-clone/
+
+To View the Netflix clone click on this URL: https://shravani1510.github.io/Netflix-clone/
