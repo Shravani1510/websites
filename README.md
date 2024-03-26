@@ -1,6 +1,6 @@
 # websites
 🚀 Project Overview:
-SocialBook: The Ultimate Website Clone: Channeling inspiration from industry giants like Facebook, LinkedIn, YouTube, Netflix, and Airbnb, I embarked on a transformative journey to develop a comprehensive social media platform.
+SocialBook: The Ultimate Website Clone: Channeling inspiration from industry giants like Facebook, LinkedIn, YouTube, and Airbnb, I embarked on a transformative journey to develop a comprehensive social media platform.
 Tech Stack Mastery: Leveraging HTML, CSS, and JavaScript, I meticulously crafted each element of the clone, ensuring seamless functionality and an intuitive user experience.
 
 💡 Key Highlights:
